@@ -1,0 +1,48 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Splits>
+  <Split name="World1" text="Sky Castle">
+    <Split name="Level_SC_GatheringGolems_01" text="Heavy Heads"/>
+    <Split name="Level_2D_FallGrind_01" text="Aqueducts"/>
+    <Split name="Level_SC_EmberRun_01" text="Go Fetch"/>
+    <Split name="Level_MG_BurrowRun_01" text="Dungeon Run"/>
+    <Split name="Level_SC_Arena_02" text="Mittens Boss"/>
+  </Split>
+  <Split name="World2" text="Veggie Village">
+    <Split name="Level_2D_FogFactory" text="Piggy Peril"/>
+    <Split name="Level_VV_EggRoll_D" text="Egg Roll"/>
+    <Split name="Level_VV_GarlicKing" text="Pungent Paths"/>
+    <Split name="Level_VV_RipeRollers" text="Ripe Rollers"/>
+    <Split name="Level_VV_FoggyBottomTrio" text="Harvest Festival"/>
+    <Split name="Level_VV_Boss_01" text="Tess Boss"/>
+      
+    <Split name="Level_MG_Marble_A_Outro" text="Mini - Marble A"/>
+    <Split name="Level_MG_Marble_B_Outro" text="Mini - Marble B"/>
+  </Split>
+  <Split name="World3" text="Wrestful Retreat">
+    <Split name="Level_e12_FoldingFrenzy_01" text="8-Fold Path"/>
+    <Split name="Level_MG_BurrowRun_02" text="Crawl, Walk, Run"/>
+    <Split name="Level_c14b_LookTileWalker" text="Ladder Match of The Mind"/>
+    <Split name="Level_2D_JuicyTubes_02" text="Melon Madness"/>
+    <Split name="Level_HC_Spelunking" text="Peaceful Place"/>
+    <Split name="Level_HC_Boss_01" text="Buttons Boss"/>
+
+    <Split name="Level_MG_SlidingBlock_G" text="Mini - Sliding Block G"/>
+    <Split name="Level_MG_SlidingBlock_L" text="Mini - Sliding Block L"/>
+  </Split>
+  <Split name="World4" text="Gilly Island">
+    <Split name="Level_GI_SecureTheTalent_01" text="Securing The Talent"/>
+    <Split name="Level_GI_SunburnMaze_01" text="Trapped in Paradise"/>
+    <Split name="Level_GI_PiratesAbound_01" text="Three Canon Salute"/>
+    <Split name="Level_GI_Boss_01" text="Meowmalade Boss"/>
+
+    <Split name="Level_MG_SlidingBlock_N" text="Mini - Sliding Block N"/>
+    <Split name="Level_MG_SlidingBlock_O" text="Mini - Sliding Block O"/>
+  </Split>
+  <Split name="World5" text="Hauntingham">
+    <Split name="Level_SP_Carnival_D" text="Carnival Court"/>
+    <Split name="Level_MG_SpookyTrain" text="Terror Train"/>
+    <Split name="Level_MG_LoopyLanterns_03" text="Grave Awakening"/>
+    <Split name="Level_MG_BurrowRun_03" text="Dungeon Crawl"/>
+    <Split name="Level_SP_Boss_01" text="Jinx Boss"/>
+  </Split>
+</Splits>

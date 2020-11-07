@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Presets>
+  <Preset name="Any%">
+    <Split name="Level_SC_GatheringGolems_01"/>
+    <Split name="Level_MG_BurrowRun_01"/>
+    <Split name="Level_SC_Arena_02"/>
+    <Split name="Level_MG_Marble_A_Outro"/>
+    <Split name="Level_2D_FogFactory"/>
+    <Split name="Level_VV_RipeRollers"/>
+    <Split name="Level_MG_Marble_B_Outro"/>
+    <Split name="Level_VV_Boss_01"/>
+    <Split name="Level_MG_SlidingBlock_L"/>
+    <Split name="Level_c14b_LookTileWalker"/>
+    <Split name="Level_MG_SlidingBlock_G"/>
+    <Split name="Level_MG_BurrowRun_02"/>
+    <Split name="Level_HC_Boss_01"/>
+    <Split name="Level_MG_SlidingBlock_N"/>
+    <Split name="Level_MG_SlidingBlock_O"/>
+    <Split name="Level_GI_PiratesAbound_01"/>
+    <Split name="Level_GI_Boss_01"/>
+    <Split name="Level_SP_Carnival_D"/>
+    <Split name="Level_MG_SpookyTrain"/>
+    <Split name="Level_SP_Boss_01"/>
+  </Preset>
+</Presets>
