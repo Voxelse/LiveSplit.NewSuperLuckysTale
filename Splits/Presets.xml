@@ -20,6 +20,6 @@
     <Split name="Level_GI_Boss_01"/>
     <Split name="Level_SP_Carnival_D"/>
     <Split name="Level_MG_SpookyTrain"/>
-    <Split name="Level_SP_Boss_01"/>
+    <Split name="Cutscene_SP_Boss_01_4"/>
   </Preset>
 </Presets>

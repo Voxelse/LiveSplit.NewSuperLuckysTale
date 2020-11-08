@@ -43,6 +43,6 @@
     <Split name="Level_MG_SpookyTrain" text="Terror Train"/>
     <Split name="Level_MG_LoopyLanterns_03" text="Grave Awakening"/>
     <Split name="Level_MG_BurrowRun_03" text="Dungeon Crawl"/>
-    <Split name="Level_SP_Boss_01" text="Jinx Boss"/>
+    <Split name="Cutscene_SP_Boss_01_4" text="Jinx Boss"/>
   </Split>
 </Splits>
