@@ -51,6 +51,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="NewSuperLuckysTaleComponent.cs" />
+    <Compile Include="NewSuperLuckysTaleMemory.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Splits\Presets.xml" />
+    <EmbeddedResource Include="Splits\Splits.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Components\ComponentsUpdate.xml" />
+    <None Include="Components\LiveSplit.NewSuperLuckysTale.dll" />
+    <None Include="Resources\ResourcesUpdate.xml" />
+    <None Include="Resources\Tooltips\*" />
+  </ItemGroup>
+  <ItemGroup>
     <Compile Include="LiveSplit.VoxSplitter\Factory.cs" />
     <Compile Include="LiveSplit.VoxSplitter\Component.cs" />
     <Compile Include="LiveSplit.VoxSplitter\Memory\Memory.cs" />
@@ -83,17 +98,6 @@
     <Compile Include="LiveSplit.VoxSplitter\Settings\TooltipSettings.Designer.cs">
       <DependentUpon>TooltipSettings.cs</DependentUpon>
     </Compile>
-    <Compile Include="NewSuperLuckysTaleComponent.cs" />
-    <Compile Include="NewSuperLuckysTaleMemory.cs" />
-    <Compile Include="Properties\AssemblyInfo.cs" />
-  </ItemGroup>
-  <ItemGroup>
-    <EmbeddedResource Include="Splits\Presets.xml" />
-    <EmbeddedResource Include="Splits\Splits.xml" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Components\ComponentsUpdate.xml" />
-    <None Include="Components\LiveSplit.NewSuperLuckysTale.dll" />
   </ItemGroup>
   <ItemGroup Condition="$([System.Text.RegularExpressions.Regex]::IsMatch($(DefineConstants), '^(.*;)*MANUALCOMPONENTS(;.*)*$'))">
     <Compile Include="LiveSplit.VoxSplitter\ManualComponents\FontTextComponent.cs" />

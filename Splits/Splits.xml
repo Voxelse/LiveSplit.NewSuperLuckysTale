@@ -6,6 +6,13 @@
     <Split name="Level_SC_EmberRun_01" text="Go Fetch"/>
     <Split name="Level_MG_BurrowRun_01" text="Dungeon Run"/>
     <Split name="Level_SC_Arena_02" text="Mittens Boss"/>
+
+    <Split name="Level_MG_SlidingBlock_A" text="Mini - Sliding Block A" img="block_A.jpg"/>
+    <Split name="Level_MG_SlidingBlock_B" text="Mini - Sliding Block B" img="block_B.jpg"/>
+    <Split name="Level_MG_SlidingBlock_C" text="Mini - Sliding Block C" img="block_C.jpg"/>
+    <Split name="Level_MG_SlidingBlock_D" text="Mini - Sliding Block D" img="block_D.jpg"/>
+    <Split name="Level_MG_SlidingBlock_E" text="Mini - Sliding Block E" img="block_E.jpg"/>
+    <Split name="Level_MG_SlidingBlock_F" text="Mini - Sliding Block F" img="block_F.jpg"/>
   </Split>
   <Split name="World2" text="Veggie Village">
     <Split name="Level_2D_FogFactory" text="Piggy Peril"/>
@@ -15,8 +22,8 @@
     <Split name="Level_VV_FoggyBottomTrio" text="Harvest Festival"/>
     <Split name="Level_VV_Boss_01" text="Tess Boss"/>
       
-    <Split name="Level_MG_Marble_A_Outro" text="Mini - Marble A"/>
-    <Split name="Level_MG_Marble_B_Outro" text="Mini - Marble B"/>
+    <Split name="Level_MG_Marble_A_Outro" text="Mini - Marble A" img="marble_A.jpg"/>
+    <Split name="Level_MG_Marble_B_Outro" text="Mini - Marble B" img="marble_B.jpg"/>
   </Split>
   <Split name="World3" text="Wrestful Retreat">
     <Split name="Level_e12_FoldingFrenzy_01" text="8-Fold Path"/>
@@ -26,8 +33,12 @@
     <Split name="Level_HC_Spelunking" text="Peaceful Place"/>
     <Split name="Level_HC_Boss_01" text="Buttons Boss"/>
 
-    <Split name="Level_MG_SlidingBlock_G" text="Mini - Sliding Block G"/>
-    <Split name="Level_MG_SlidingBlock_L" text="Mini - Sliding Block L"/>
+    <Split name="Level_MG_SlidingBlock_G" text="Mini - Sliding Block G" img="block_G.jpg"/>
+    <Split name="Level_MG_SlidingBlock_H" text="Mini - Sliding Block H" img="block_H.jpg"/>
+    <Split name="Level_MG_SlidingBlock_I" text="Mini - Sliding Block I" img="block_I.jpg"/>
+    <Split name="Level_MG_SlidingBlock_J" text="Mini - Sliding Block J" img="block_J.jpg"/>
+    <Split name="Level_MG_SlidingBlock_K" text="Mini - Sliding Block K" img="block_K.jpg"/>
+    <Split name="Level_MG_SlidingBlock_L" text="Mini - Sliding Block L" img="block_L.jpg"/>
   </Split>
   <Split name="World4" text="Gilly Island">
     <Split name="Level_GI_SecureTheTalent_01" text="Securing The Talent"/>
@@ -35,8 +46,12 @@
     <Split name="Level_GI_PiratesAbound_01" text="Three Canon Salute"/>
     <Split name="Level_GI_Boss_01" text="Meowmalade Boss"/>
 
-    <Split name="Level_MG_SlidingBlock_N" text="Mini - Sliding Block N"/>
-    <Split name="Level_MG_SlidingBlock_O" text="Mini - Sliding Block O"/>
+    <Split name="Level_MG_SlidingBlock_M" text="Mini - Sliding Block M" img="block_M.jpg"/>
+    <Split name="Level_MG_SlidingBlock_N" text="Mini - Sliding Block N" img="block_N.jpg"/>
+    <Split name="Level_MG_SlidingBlock_O" text="Mini - Sliding Block O" img="block_O.jpg"/>
+    <Split name="Level_MG_SlidingBlock_P" text="Mini - Sliding Block P" img="block_P.jpg"/>
+    <Split name="Level_MG_SlidingBlock_Q" text="Mini - Sliding Block Q" img="block_Q.jpg"/>
+    <Split name="Level_MG_SlidingBlock_R" text="Mini - Sliding Block R" img="block_R.jpg"/>
   </Split>
   <Split name="World5" text="Hauntingham">
     <Split name="Level_SP_Carnival_D" text="Carnival Court"/>
@@ -44,5 +59,10 @@
     <Split name="Level_MG_LoopyLanterns_03" text="Grave Awakening"/>
     <Split name="Level_MG_BurrowRun_03" text="Dungeon Crawl"/>
     <Split name="Cutscene_SP_Boss_01_4" text="Jinx Boss"/>
+
+    <Split name="Level_MG_Marble_C_Outro" text="Mini - Marble C" img="marble_C.jpg"/>
+    <Split name="Level_MG_Marble_D_Outro" text="Mini - Marble D" img="marble_D.jpg"/>
   </Split>
+  <Split name="Levels" text="Split at every regular/boss level"/>
+  <Split name="Puzzles" text="Split at every puzzle level"/>
 </Splits>

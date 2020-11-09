@@ -14,6 +14,8 @@ namespace LiveSplit.NewSuperLuckysTale {
         private int cutsceneCount = 0;
 
         private readonly RemainingDictionary remainingSplits;
+        private bool allLevels = false;
+        private bool allPuzzles = false;
 
         private readonly MonoHelper mono;
 
@@ -53,6 +55,8 @@ namespace LiveSplit.NewSuperLuckysTale {
         }
 
         public override void OnStart(HashSet<string> splits) {
+            if(splits.Contains("Levels")) { allLevels = splits.Remove("Levels"); }
+            if(splits.Contains("Puzzles")) { allPuzzles = splits.Remove("Puzzles"); }
             remainingSplits.Setup(splits);
             cutsceneCount = 0;
         }
@@ -61,9 +65,21 @@ namespace LiveSplit.NewSuperLuckysTale {
             return remainingSplits.Count != 0 && (SplitLevels() || SplitCutscenes());
 
             bool SplitLevels() {
-                return remainingSplits.ContainsKey("Level") && level.Changed
-                    && (level.New.StartsWith("Chapter") || String.IsNullOrEmpty(level.New))
-                    && remainingSplits.Split("Level", level.Old);
+                if(!level.Changed || !(level.New.StartsWith("Chapter") || String.IsNullOrEmpty(level.New))) {
+                    return false;
+                }
+
+                if(remainingSplits.ContainsKey("Level") && remainingSplits.Split("Level", level.Old)) {
+                    return true;
+                }
+
+                bool isPuzzle = (level.Old.Contains("_Marble_") && level.Old.EndsWith("_Outro")) || level.Old.Contains("_SlidingBlock_");
+                if((allLevels && !isPuzzle) || (allPuzzles && isPuzzle)) {
+                    Logger.Log("Split any level " + level.Old);
+                    return true;
+                }
+
+                return false;
             }
 
             bool SplitCutscenes() {
