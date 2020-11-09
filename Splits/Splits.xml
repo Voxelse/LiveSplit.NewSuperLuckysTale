@@ -63,6 +63,26 @@
     <Split name="Level_MG_Marble_C_Outro" text="Mini - Marble C" img="marble_C.jpg"/>
     <Split name="Level_MG_Marble_D_Outro" text="Mini - Marble D" img="marble_D.jpg"/>
   </Split>
+  <Split name="World6" text="Foxington">
+    <Split name="Level_FTON_Combat_Remix_Tess" text="Fight - Gotta Get Back in Time"/>
+    <Split name="Level_FTON_Combat_Remix_Butons" text="Fight - The Fluffle Shuffle"/>
+    <Split name="Level_FTON_Arena" text="Fight - WriggleMania"/>
+    
+    <Split name="Level_MG_Marble_E" text="Marble - You Roll Me Right Round"/>
+    <Split name="Level_MG_Marble_F" text="Marble - I Love Fox and Roll"/>
+    <Split name="Level_MG_Marble_G" text="Marble - Head Over Heels"/>
+    <Split name="Level_MG_Marble_H" text="Marble - Roll With It"/>
+    <Split name="Level_MG_Marble_I" text="Marble - Roller of a Lonely Heart"/>
+    <Split name="Level_MG_Marble_J" text="Marble - Revenge of The Nerd"/>
+    
+    <Split name="Level_MushroomChallenge_A" text="Challenge - Might as Well Jump"/>
+    <Split name="Level_burrowChallenge" text="Challenge - Under Pressure"/>
+    <Split name="Level_GhostRunnerChallenge_A" text="Challenge - I Ain't Afraid"/>
+    <Split name="Level_ConveyorBeltChallenge_A" text="Challenge - A Road to Nowhere"/>
+    <Split name="Level_LadderChallenge" text="Challenge - Step By Step"/>
+    <Split name="Level_MG_BurrowRun_04" text="Challenge - Can you dig it?"/>
+    <Split name="Level_SinkingChallenge_A" text="Challenge - Top That!"/>
+  </Split>
   <Split name="Levels" text="Split at every regular/boss level"/>
   <Split name="Puzzles" text="Split at every puzzle level"/>
 </Splits>

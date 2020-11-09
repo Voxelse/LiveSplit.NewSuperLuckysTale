@@ -1,5 +1,14 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <updates>
+  <update version="1.0.4">
+    <files>
+      <file path="Components/LiveSplit.NewSuperLuckysTale.dll" status="changed"/>
+    </files>
+    <changelog>
+      <change>Add Foxington splits</change>
+      <change>Add 100% preset</change>
+    </changelog>
+  </update>
   <update version="1.0.3">
     <files>
       <file path="Components/LiveSplit.NewSuperLuckysTale.dll" status="changed"/>
