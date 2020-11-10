@@ -3,7 +3,7 @@
   <Split name="World1" text="Sky Castle">
     <Split name="Level_SC_GatheringGolems_01" text="Heavy Heads"/>
     <Split name="Level_2D_FallGrind_01" text="Aqueducts"/>
-    <Split name="Level_SC_EmberRun_01" text="Go Fetch"/>
+    <Split name="Level_SC_EmberRun_02" text="Go Fetch"/>
     <Split name="Level_MG_BurrowRun_01" text="Dungeon Run"/>
     <Split name="Level_SC_Arena_02" text="Mittens Boss"/>
 

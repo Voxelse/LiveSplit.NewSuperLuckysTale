@@ -29,7 +29,7 @@
   <Preset name="All Main Levels">
     <Split name="Level_SC_GatheringGolems_01"/>
     <Split name="Level_2D_FallGrind_01"/>
-    <Split name="Level_SC_EmberRun_01"/>
+    <Split name="Level_SC_EmberRun_02"/>
     <Split name="Level_MG_BurrowRun_01"/>
     <Split name="Level_SC_Arena_02"/>
 
@@ -61,7 +61,7 @@
   <Preset name="All Pages">
     <Split name="Level_SC_GatheringGolems_01"/>
     <Split name="Level_2D_FallGrind_01"/>
-    <Split name="Level_SC_EmberRun_01"/>
+    <Split name="Level_SC_EmberRun_02"/>
     <Split name="Level_MG_BurrowRun_01"/>
     <Split name="Level_SC_Arena_02"/>
 
@@ -120,7 +120,7 @@
   <Preset name="100%">
     <Split name="Level_SC_GatheringGolems_01"/>
     <Split name="Level_2D_FallGrind_01"/>
-    <Split name="Level_SC_EmberRun_01"/>
+    <Split name="Level_SC_EmberRun_02"/>
     <Split name="Level_MG_BurrowRun_01"/>
     <Split name="Level_SC_Arena_02"/>
 
