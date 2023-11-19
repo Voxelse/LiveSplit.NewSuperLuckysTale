@@ -7,7 +7,6 @@ using System.Collections.Generic;
 using System.ComponentModel;
 
 namespace LiveSplit.NewSuperLuckysTale {
-
     public enum EStart {
         [Description("Off")]
         Off,
@@ -16,7 +15,6 @@ namespace LiveSplit.NewSuperLuckysTale {
         [Description("Any Level")]
         AnyLevel
     }
-
     public class NewSuperLuckysTaleComponent : VoxSplitter.Component {
 
         protected override SettingInfo? Start => new SettingInfo((int)EStart.NewGame, GetEnumDescriptions<EStart>());
