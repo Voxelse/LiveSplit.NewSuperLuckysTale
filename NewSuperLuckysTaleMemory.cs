@@ -9,6 +9,7 @@ namespace LiveSplit.NewSuperLuckysTale {
         private Pointer<IntPtr> loading;
         private StringPointer level;
         private Pointer<bool> cutscene;
+        private Pointer<float> fps;
 
         private bool isReady = true;
         private int cutsceneCount = 0;
@@ -38,6 +39,8 @@ namespace LiveSplit.NewSuperLuckysTale {
 
                 cutscene = ptrFactory.Make<bool>("CutsceneSequence", "<HasActiveCutscene>k__BackingField");
 
+                fps = ptrFactory.Make<float>("GameConfiguration", "Instance", "_currentFps");
+
                 Logger.Log(ptrFactory.ToString());
             });
         }
@@ -59,6 +62,10 @@ namespace LiveSplit.NewSuperLuckysTale {
             if(splits.Contains("Puzzles")) { allPuzzles = splits.Remove("Puzzles"); }
             remainingSplits.Setup(splits);
             cutsceneCount = 0;
+        }
+
+        public float CurrentFPS() {
+            return fps.New;
         }
 
         public override bool Split() {
