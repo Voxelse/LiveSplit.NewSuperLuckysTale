@@ -46,7 +46,7 @@ namespace LiveSplit.NewSuperLuckysTale {
                 lastInfoCheck = dateTime.AddSeconds(3);
             }
 
-            if(fpsComponent != null) {
+            if(fpsComponent != null && memory.IsReady()) {
                 string fps = ((NewSuperLuckysTaleMemory)memory).CurrentFPS().ToString("0.0");
                 if(fps != fpsComponent.Settings.Text2) {
                     fpsComponent.Settings.Text2 = fps;
